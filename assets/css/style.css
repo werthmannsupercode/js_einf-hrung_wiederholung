@@ -32,6 +32,10 @@ li a:hover:not(.active) {
     cursor: pointer;
 }
 
+section {
+    margin-top: 5vh;
+}
+
 section input[type=text],
 section select {
     width: 100%;
@@ -66,6 +70,8 @@ section div {
 
 article {
     font-family: 'Karla', sans-serif;
+    margin-top: 5vh;
+    text-align: center;
 }
 
 article button {
@@ -81,11 +87,13 @@ article button {
 }
 
 article .wrapper {
-    max-width: 500px;
+    max-width: 60vw;
+    margin: 0 20vw;
 }
 
 article div {
     border-radius: 5px;
+    margin-top: 5vh;
 }
 
 .small {
@@ -116,7 +124,7 @@ article div {
 aside {
     height: 50vh;
     width: 50vw;
-    margin: 0 25vw;
+    margin: 5vh 25vw;
     background-color: tomato;
     display: flex;
     justify-content: center;
